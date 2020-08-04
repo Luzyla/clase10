@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;600;700&display=swap');
 
 body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #424242;
+    font-family: 'Lemonada';
 }
 
 * {
@@ -15,12 +11,57 @@ body {
     box-sizing: border-box;
 }
 
+header {
+    background-color: teal;
+    position: relative;
+    width: 100vw;
+    height: 40px;
+}
+
+.h1-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
 h1 {
-    font-family: 'Lemonada';
     font-size: 40px;
     font-weight: 900;
     text-align: center;
     color: #fafafa;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: tomato;
+}
+
+.li-menu {
+    font-size: 16px;
+    padding: 3px;
+    margin: 3px 10px;
+}
+
+.li-menu:hover {
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*margin-right: 60%;*/
+    flex-wrap: nowrap;
+}
+
+.img-menu {
+    display: none;
 }
 
 /*----------------------------
@@ -49,5 +90,22 @@ h1 {
     h1 {
         font-size: 24px;
         color: yellowgreen;
+    }
+
+    .ul-menu {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .img-menu {
+        display: inline-block;
+        width: 30px;
+        padding: 5px;
+        margin: 3px 20px 0 10px;
     }
 }
