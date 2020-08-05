@@ -14,7 +14,6 @@ body {
 header {
     background-color: teal;
     position: relative;
-    height: 40px;
 }
 
 .h1-section {
@@ -55,8 +54,8 @@ ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /*margin-right: 60%;*/
     flex-wrap: nowrap;
+    height: 40px;
 }
 
 .img-menu {
