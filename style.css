@@ -14,7 +14,6 @@ body {
 header {
     background-color: teal;
     position: relative;
-    width: 100vw;
     height: 40px;
 }
 
@@ -109,3 +108,4 @@ ul {
         margin: 3px 20px 0 10px;
     }
 }
+
